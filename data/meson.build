@@ -22,7 +22,7 @@ if appstreamcli.found()
     test(
         'Validate appstream file',
         appstreamcli,
-        args: ['validate', '--no-net', appstream]
+        args: ['validate', '--no-net', '--explain', appstream]
     )
 endif
 
