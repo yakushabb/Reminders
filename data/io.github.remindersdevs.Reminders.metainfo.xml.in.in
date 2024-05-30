@@ -4,6 +4,9 @@
   <content_rating type="oars-1.1"/>
 
   <developer_name translatable="yes">Reminders Developers</developer_name>
+  <developer id="io.github.remindersdevs">
+    <name translatable="yes">Reminders Developers</name>
+  </developer>
   <update_contact>dgsasha04_at_gmail.com</update_contact>
 
   <name>Reminders</name>
@@ -46,26 +49,6 @@
     <control>touch</control>
   </recommends>
 
-  <categories>
-    <category>GNOME</category>
-    <category>GTK</category>
-    <category>Office</category>
-    <category>ProjectManagement</category>
-  </categories>
-
-  <keywords>
-    <keyword>Todo</keyword>
-    <keyword>Productivity</keyword>
-    <keyword>Task</keyword>
-    <keyword>Planning</keyword>
-    <keyword>Planner</keyword>
-    <keyword>Time</keyword>
-    <keyword>Management</keyword>
-    <keyword>Reminder</keyword>
-    <keyword>Remembrance</keyword>
-    <keyword>Reminders</keyword>
-  </keywords>
-
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/dgsasha/remembrance/c582346fdf564104042e67f329ea2caa5793920d/screenshot-dark.png</image>
@@ -77,9 +60,10 @@
 
   <translation type="gettext">@APP_EXECUTABLE@</translation>
 
-  <url type="translate">https://hosted.weblate.org/engage/reminders</url>
   <url type="homepage">https://github.com/dgsasha/remembrance</url>
   <url type="bugtracker">https://github.com/dgsasha/remembrance/issues</url>
+  <url type="vcs-browser">https://github.com/dgsasha/remembrance</url>
+  <url type="translate">https://hosted.weblate.org/engage/reminders</url>
   <releases>
     <release version="5.0" date="2023-05-03">
       <description>
