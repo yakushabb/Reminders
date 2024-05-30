@@ -268,7 +268,7 @@ class PreferencesUserRow(Adw.ExpanderRow):
             confirm_dialog = Adw.MessageDialog(
                 transient_for=self.preferences,
                 heading=_('Are you sure you want to sign out?'),
-                body=_(f'This will sign out <b>{self.username}</b>'),
+                body=_('This will sign out <b>{0}</b>').format(self.username),
                 body_use_markup=True
             )
             confirm_dialog.add_response('cancel', _('Cancel'))

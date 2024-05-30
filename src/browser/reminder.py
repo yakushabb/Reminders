@@ -406,7 +406,7 @@ class Reminder(Adw.ExpanderRow):
         confirm_dialog = Adw.MessageDialog(
             transient_for=self.win,
             heading=_('Remove reminder?'),
-            body=_(f'This will remove {reminder} and cannot be undone.'),
+            body=_('This will remove {0} reminder and cannot be undone.').format(reminder),
             body_use_markup=True
         )
         confirm_dialog.add_response('cancel', _('Cancel'))

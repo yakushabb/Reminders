@@ -195,7 +195,7 @@ class ListRow(Adw.EntryRow):
         confirm_dialog = Adw.MessageDialog(
             transient_for=self.edit_win,
             heading=_('Remove list?'),
-            body=_(f'This will remove {list_name} and cannot be undone.'),
+            body=_('This will remove {0} list and cannot be undone.').format(list_name),
             body_use_markup=True
         )
         confirm_dialog.add_response('cancel', _('Cancel'))

@@ -1254,7 +1254,7 @@ class MainWindow(Adw.ApplicationWindow):
                 self.start_search()
             self.reminders_list.invalidate_filter()
             self.reminders_list.invalidate_sort()
-            self.page_label.set_label(_(f"Searching '{text}'"))
+            self.page_label.set_label(_("Searching '{0}'").format(text))
             self.label_revealer.set_reveal_child(False)
         else:
             self.searching = False
